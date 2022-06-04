@@ -1,0 +1,186 @@
+@media (max-width: 1000px) {
+
+  body {
+    margin: 0 auto;
+  }
+  .container {
+    max-width: 1230px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+
+  .heading {
+    text-align: left;
+    padding: 10px 0 16px 0;
+    width: 100%;
+  }
+
+  /**************Bagian Header************************/
+  .top-wrapper h1{
+    font-size: 30px;
+  }
+  /*************Bagian Paket Populer******************/
+  .package-wrapper .container {
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+  }
+
+  .packages {
+    margin: 0 auto;
+  }
+
+  .card {
+    margin-top: 20px;
+    margin-left: 130px;
+    left: 50%;
+    top: 50%;
+    text-align: left;
+  }
+
+  .remark p {
+    font-size: 12px;
+    margin: 2px 0px;
+  }
+
+  .card h2 {
+    font-size: 12px;
+    margin: 2px 0px;
+  }
+
+  .card h3 {
+    font-size: 12px;
+    margin: 2px 0px;
+  }
+
+  .rating {
+    margin-top: 10px;
+    margin-bottom: 0px;
+
+  }
+
+  .detail {
+    padding: 5px 17px;
+    font-size: 15px;
+    margin-top: 10px;
+  }
+
+  .pesan {
+    padding: 5px 35px;
+    font-size: 15px;
+    margin-top: 10px;
+  }
+
+  /***********Bagian Kategori Tempat******************/
+  .categories {
+    width: 100%;
+  }
+  .category-card {
+    width: 25%;
+    margin: 0 32px;
+  }
+  /*****************Bagian About Us****************/
+  .about-us {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 300px;
+  }
+
+  .about {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .profile {
+    display: inline-block;
+    margin: 0 auto;
+    width: 30%;
+    box-sizing: border-box;
+    margin: 5% 10%;
+    padding: 20px;
+  }
+
+
+
+
+  /********************Bagian footer**********************/
+  .contact {
+    margin: 0 auto;
+  }
+
+  .logo img {
+    display: none;
+  }
+}
+
+@media (max-width: 670px) {
+
+  /**************Bagian Header************************/
+  .header-right {
+    display: none;
+  }
+
+  .header-right-span {
+    display: block;
+  }
+
+  /*************Bagian Paket Populer******************/
+  .card {
+    margin: 20px auto;
+    width: 75%;
+  }
+
+  /***********Bagian Kategori Tempat******************/
+  .category-card {
+width: 30%;
+    float: left;
+    display: grid;
+    margin: auto 50px
+  }
+
+  /*****************Bagian About Us****************/
+  .about-us {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .about {
+    width: 100%;
+  }
+
+  .profile {
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin: 20px auto;
+  }
+
+  /********************Bagian footer**********************/
+  .contact {
+    background-color: #ffff;
+    box-shadow: 0px -5px 15px rgba(0, 0, 0, 0.25);
+    position: relative;
+    width: 100%;
+  }
+
+  .contact-card {
+    display: inline-flex;
+    margin: 10px 10px;
+    text-align: left;
+    color: rgb(82, 82, 82);
+    width: 100%;
+  }
+
+  .contacts-card {
+    width: 33.33%;
+    color: rgb(82, 82, 82);
+    margin-right: 50px;
+  }
+
+  .contacts-card {
+    width: 33.33%;
+    color: rgb(82, 82, 82);
+    margin-right: 50px;
+  }
+}
