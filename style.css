@@ -11,7 +11,6 @@ html {
 }
 
 body {
-
     margin: 0;
     padding: 0;
 }
@@ -20,16 +19,23 @@ a {
     text-decoration: none;
     list-style: none;
 }
+
 li {
     text-decoration: none;
     list-style: none;
 }
 
+
 .container {
-    max-width: 1170px;
+    max-width: 1230px;
     width: 100%;
     padding: 0 15px;
     margin: 0 auto;
+}
+
+.heading {
+    padding: 67px 0 16px 0;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* header */
@@ -37,7 +43,7 @@ nav {
     height: 65px;
     width: 100%;
     background-color: rgba(255, 255, 255, 1);
-    position: fixed;
+    position: sticky;
 
     top: 0;
     z-index: 10;
@@ -57,6 +63,13 @@ nav {
     float: right;
 }
 
+.header-right-span {
+    display: none;
+    color: #1053B7;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+}
 
 nav ul {
     margin-top: 20px;
@@ -70,7 +83,6 @@ nav a {
     font-family: 'Montserrat', sans-serif;
 
 }
-
 
 nav li {
     display: inline;
@@ -144,15 +156,21 @@ nav li {
     color: #ffff;
     float: left;
     width: 100%;
+    margin-bottom: 35px;
 }
 
-.heading {
-    padding: 67px 0 16px 0;
-    font-family: 'Montserrat', sans-serif;
+.packages {
+    padding-top: 15px;
+    padding-left: 30px;
+}
+
+.heading h3,
+.p-cat {
+    text-align: center;
 }
 
 .card {
-    margin: auto;
+    margin: 0 auto;
     background-color: white;
     color: black;
     width: 350px;
@@ -161,9 +179,6 @@ nav li {
     margin-right: 45px;
     margin-bottom: 67px;
     box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.25);
-    border-radius: 10px;
-
-
 }
 
 .head-card img {
@@ -189,7 +204,7 @@ nav li {
 .card p {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
-    margin: 0 0 16px
+    margin: 0 0 16px 0;
 }
 
 .remark {
@@ -198,6 +213,12 @@ nav li {
 
 .remark p h2 {
     padding-bottom: 5px;
+}
+
+.rating {
+    font-family: 'Roboto', sans-serif;
+    padding-top: 10px;
+    color: rgb(82, 82, 82);
 }
 
 .btn-card {
@@ -238,14 +259,13 @@ nav li {
 
 /* category */
 .category {
-    margin-top: 723px;
+    margin-bottom: 20px;
 }
 
 .category-card {
-    width: 182px;
-    height: 182px;
+    width: 15%;
     float: left;
-    margin-right: 9px;
+    margin-right: 24px;
     display: grid;
 }
 
@@ -256,7 +276,7 @@ nav li {
 
 .category-card img {
     width: 100%;
-    height: 182px;
+    height: 180px;
     border-radius: 5px;
 }
 
@@ -271,6 +291,128 @@ nav li {
 /* about */
 .about-us {
     margin-top: 200px;
+    margin-bottom: 67px;
+}
+
+.about {
+    width: 1240px;
+}
+
+.profile {
+    float: left;
+    padding: 20px;
+    width: 210px;
+    border-radius: 10px;
+    margin-right: 38px;
+    box-shadow: 0px 0px 25px rgb(0 0 0 / 25%);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.profile:hover {
+    color: #1053B7;
+    border: 2px solid;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.25);
+}
+
+.ig-logo {
+    width: 25px;
+    height: 25px;
+    display: block;
+    margin: 5px 0px;
+}
+
+.fb-logo {
+    width: 25px;
+    height: 25px;
+    display: block;
+    margin: 5px 0px;
+}
+
+.tw-logo {
+    width: 25px;
+    height: 25px;
+    display: block;
+    margin: 5px 0px;
+}
+
+.profile-pic {
+    width: 40px;
+    height: 40px;
+    display: inline;
+    border-radius: 50%;
+}
+
+.profile-name {
+    font-size: 12px;
+}
+
+.clear {
+    clear: left;
+}
+
+.sosmed {
+    margin: 20px 0;
+}
+
+.sosmed a {
+    color: #1053B7;
+}
+
+.sosmed-name {
+    margin: 0 auto;
+    vertical-align: top;
 }
 
 /* contact */
+.contact {
+    background-color: #ffff;
+    box-shadow: 0px -5px 15px rgba(0, 0, 0, 0.25);
+    position: relative;
+    width: 100%;
+}
+
+.contact-card {
+    display: inline-flex;
+    margin: 67px 0 67px 137px;
+    flex-direction: row;
+    text-align: left;
+    color: rgb(82, 82, 82);
+}
+
+.contacts-card {
+    color: rgb(82, 82, 82);
+    margin-right: 150px;
+}
+
+.contacts-card ul {
+    padding: 0;
+}
+
+.contacts-card li {
+    padding-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-weight: bold;
+    color: rgb(82, 82, 82);
+}
+
+.contacts-card h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.logo img {
+    width: 124px;
+    margin-top: 100px;
+    float: left;
+}
+
+/* footer */
+footer {
+    position: absolute;
+    width: 100%;
+    background-color: #1053B7;
+    text-align: center;
+    color: #ffff;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: -18px;
+}
